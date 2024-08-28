@@ -1,34 +1,29 @@
-# Project Title: Healthcare Data Analysis and Optimization of Patient Dosages and Lab Reports Using Python and Excel
+# Project Title: Healthcare Data Analysis: Patient Dosages and Lab Report Optimization Using Python and Excel
 
 ## Project Overview
-This project delves into the analysis of healthcare data, specifically focusing on patient dosages and lab reports, using a combination of Python and Excel. The project aims to uncover patterns in medication usage, analyze patient switching behavior, and perform financial modeling to inform strategic decision-making within a healthcare setting.
+This project centers around analyzing healthcare data, specifically focusing on patient dosages and lab reports, using Python and Excel. The goal is to identify patterns in medication usage, understand patient switching behaviors, and optimize dosages to improve healthcare outcomes. The project integrates both Python scripting and Excel functionalities to perform advanced data analysis and financial modeling.
 
 ## Key Features
-- **Data Aggregation**: Aggregates and summarizes patient dosage and lab report data across different periods using Python and Excel, providing insights into healthcare trends.
-- **Patient Analysis**: Tracks and analyzes patient data over time with Python scripts, while Excel calculations reveal patterns in medication dosage and lab results.
-- **Break-Even Analysis**: Python and Excel are employed to determine the break-even price per unit of medication, considering patient transitions and dosage changes.
-- **Optimization Models**: Applies advanced optimization techniques through Excel's Solver and Python libraries to manage healthcare inventory, determine reorder points, and recommend cost-effective strategies.
+- **Total Units Utilization**: Calculated the total units of medication utilized each month, broken down by specific medications, using Python for data processing and Excel for final visualization.
+- **Patient Count Analysis**: Monthly tracking of the number of patients on specific medications, using Python to group data by month and medication, followed by detailed analysis in Excel.
+- **Average Dosage Calculation**: Computed the average monthly dose per patient, integrating data from both Python and Excel to ensure accurate and comprehensive insights.
+- **Patient Switching Behavior**: Analyzed the switching patterns of patients from one medication to another, identifying trends and optimizing treatment plans using Python for data processing and Excel for final tabulation.
+- **Breakeven Price Analysis**: Conducted a financial analysis to determine the breakeven price for new medications, factoring in dosage variations and patient switching data.
+- **Lab Report Analysis**: Assessed LAB B values in correlation with patient dosages, leveraging Python for data manipulation and Excel for in-depth analysis.
 
 ## Tools and Technologies
-- **Python**: Utilized for healthcare data manipulation, analysis, and visualization.
-- **Microsoft Excel**: Used for aggregating healthcare data, performing statistical analysis, and conducting financial modeling.
-- **Excel Solver**: Applied for optimization tasks, including linear programming and sensitivity analysis.
-- **Pandas & NumPy**: Python libraries used for handling healthcare datasets and performing numerical calculations.
+- **Python**: Employed for data manipulation, aggregation, and initial analysis.
+- **Microsoft Excel**: Used for final data processing, visualization, and financial modeling.
+- **Pandas & NumPy**: Python libraries utilized for efficient data handling and numerical calculations.
+- **Excel Solver**: Applied for optimization tasks such as calculating optimal dosages and pricing models.
 
 ## Key Insights
-- **Patient Switching Behavior**: Python scripts provide detailed analysis of patient transitions between medications, alongside calculations of average time on each medication.
-- **Dosage and Lab Report Analysis**: Combined Python and Excel methods yield accurate monthly dosage calculations and lab report summaries, offering insights into patient health trends.
-- **Cost Optimization**: The break-even pricing model, developed using Python and Excel, supports strategic decisions on medication pricing and healthcare cost management.
-
-## Results
-- **Optimized Healthcare Inventory Management**: Implemented EOQ and Quantity Discount Models through Python and Excel to reduce healthcare inventory costs while maintaining service levels.
-- **Enhanced Decision-Making**: Data-driven insights enable strategic decision-making regarding medication pricing, patient dosages, and lab report analysis.
+- **Medication Utilization**: The project provided a clear view of monthly medication utilization, helping in resource allocation and inventory management.
+- **Patient Behavior Analysis**: Identified key trends in patient switching behavior, aiding in the development of targeted treatment strategies.
+- **Financial Modeling**: The breakeven analysis offered crucial insights into pricing strategies for new medications, balancing cost and patient care.
+- **Healthcare Optimization**: The combined analysis of dosage and lab report data led to recommendations for optimized patient care and improved healthcare outcomes.
 
 ## How to Use
-1. **Data Preparation**: Use Python scripts to preprocess healthcare data, ensuring it is correctly formatted for further analysis in Excel.
-2. **Analysis Execution**: Run Python scripts and follow the steps in the Excel file to conduct a thorough analysis of patient dosages and lab reports.
-3. **Interpretation**: Review the generated results and visualizations to extract actionable healthcare insights from the data.
-
-## Future Work
-- **Advanced Statistical Modeling in Healthcare**: Integrate more sophisticated Python libraries for deeper statistical analysis of healthcare data.
-- **Automation**: Develop Python scripts to automate the update and real-time analysis of healthcare data.
+1. **Data Preparation**: Use Python scripts to preprocess healthcare data, ensuring it is ready for detailed analysis in Excel.
+2. **Run Analysis**: Execute Python scripts for initial data processing, then open the Excel file to perform detailed calculations and visualize the results.
+3. **Interpret Results**: Review the final output in Excel, including charts, tables, and financial models, to derive actionable healthcare insights.
